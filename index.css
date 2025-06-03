@@ -46,6 +46,14 @@ h2{
     padding: 5px;
     text-align: center;
 }
+.columna{
+    text-align: center;
+    font-size: 15px;
+    background-color: #cb8587;
+    border: 2px solid #602f20;
+    border-radius: 10px;  /* Bordes redondeados */
+    padding: 20px;  
+}
 .footr{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
