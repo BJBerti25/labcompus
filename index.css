@@ -31,6 +31,9 @@ html{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #603f20;
 }
+h1{
+    text-align: center;
+}
 h2{
     text-align: center;
 }
