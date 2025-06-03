@@ -14,7 +14,7 @@
     display: block;
 }
 #logo{
-    width: 100px;
+    width: 125px;
 }
 #texthead1{
     text-align: center;
@@ -42,6 +42,11 @@ h2{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 20px;
 }
+.mainbody2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
 .body-item{
     padding: 5px;
     text-align: center;
@@ -61,4 +66,9 @@ h2{
 }
 .footr-item{
     padding: 5px;
+    text-align: center;
+}
+#nota{
+    color: red;
+    text-align: center;
 }

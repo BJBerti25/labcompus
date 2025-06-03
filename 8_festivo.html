@@ -20,9 +20,11 @@
 </header>
 <body>
     <h1>Festivos</h1>
-    <p>IMPORTANTE: Los precios están sujetos a variaciones.</p>
-    <div class="mainbody">
+    <p id="nota">IMPORTANTE: Los precios están sujetos a variaciones.</p>
+    <br>
+    <div class="mainbody2">
         <div class="columna grid-item-1">
+            <img src="/rosca.jpeg" width="300" height="300">
             <h2>Rosca de pascua</h2>
             <p></p>
             <p>Cantidad: <input type="number" id="cantidad" min="1" value="1"></p>
@@ -30,13 +32,19 @@
             <p>Precio total: <input type="number" id="preciototal" readonly></p>
         </div>
         <div class="columna grid-item-2">
-            <h2>Huevo de pascua</h2>
-            <p></p>
+            <img src="/hrell.jpeg" width="300" height="300">
+            <h2>Huevo de pascua relleno</h2>
+            <select>
+                <option>Chocotorta</option>
+                <option>Frutos del bosque</option>
+                <option>Brownie</option>
+            </select>
             <p>Cantidad: <input type="number" id="cantidad" min="1" value="1"></p>
             <button onclick="">Calcular precio</button>
             <p>Precio total: <input type="number" id="preciototal" readonly></p>
         </div>
         <div class="columna grid-item-3">
+            <img src="/festivo.jpeg" height="300" width="300">
             <h2>Pan dulce c/ chips</h2>
             <select>
                 <option>c/ nueces</option>
@@ -46,8 +54,11 @@
             <p>Cantidad: <input type="number" id="cantidad" min="1" value="1"></p>
             <button onclick="">Calcular precio</button>
             <p>Precio total: <input type="number" id="preciototal" readonly></p>
+        </div>
             <br>
-            <h2>Huevo de pascua</h2>
+        <div class="columna">
+            <img src="/pionononav.jpeg" width="300" height="300">
+            <h2>Pionono navideño</h2>
             <p></p>
             <p>Cantidad: <input type="number" id="cantidad" min="1" value="1"></p>
             <button onclick="">Calcular precio</button>
@@ -68,7 +79,7 @@
         </div>
         <div class="foootr-item grid-item-3">
             <h2>Contacto</h2>
-            <p>Para pedido personalizado: 3518649021</p>
+            <p>Para pedido personalizado: 3512122326</p>
         </div>
 
     </div>
