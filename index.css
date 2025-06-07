@@ -37,12 +37,7 @@ h1{
 h2{
     text-align: center;
 }
-.mainbody{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 20px;
-}
-.mainbody2{
+.contenedor{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
@@ -55,7 +50,7 @@ h2{
     text-align: center;
     font-size: 15px;
     background-color: #cb8587;
-    border: 2px solid #602f20;
+    border: 3px solid #602f20;
     border-radius: 10px;  /* Bordes redondeados */
     padding: 20px;  
 }
@@ -74,4 +69,10 @@ h2{
 }
 a{
     color:black;
+}
+.consultar{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    text-align: center;
+    color: #603f20;
 }
